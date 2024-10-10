@@ -1,4 +1,4 @@
-import getSanFranciscoDescription from './6-string-interpolation.js';
+import handleProfileSignup from './6-final-user.js';
 
-console.log(getSanFranciscoDescription());
+console.log(handleProfileSignup("Bob", "Dylan", "bob_dylan.jpg"));
 

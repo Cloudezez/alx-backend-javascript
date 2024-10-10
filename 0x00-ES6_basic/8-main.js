@@ -1,4 +1,5 @@
-import getBudgetForCurrentYear from './8-getBudgetCurrentYear.js';
+import divideFunction from './8-try.js';
 
-console.log(getBudgetForCurrentYear(2100, 5200, 1090));
+console.log(divideFunction(10, 2)); // Outputs: 5
+console.log(divideFunction(10, 0));  // Throws an error
 
